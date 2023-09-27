@@ -1,0 +1,48 @@
+body {
+	background-color: black;
+	height: calc(100vh - 16px);
+	width: calc(100vw - 16px);
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+div.game-container {
+	border: 1px solid white;
+	position: relative;
+}
+
+.snake {
+	width: 40px;
+	height: 40px;
+	/* border-radius: 20px; */
+	position: absolute;
+	background-color: #006000;
+}
+
+.target {
+	background-color: #800000;
+}
+
+.body {
+	position: absolute;
+	background-color: #00c000;
+}
+
+.score {
+	background-color: #00ffff99;
+	border-bottom-left-radius: 15px;
+	font-size: 21px;
+	position: absolute;
+	padding: 7px;
+	width: 120px;
+	margin: 0px;
+	top: 5px;
+	right: 5px;
+}
+
+.hidden {
+	display: none;
+}
